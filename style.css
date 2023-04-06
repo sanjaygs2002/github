@@ -4,7 +4,9 @@ box-sizing: border-box;
 }
 body {
 background-color: #1b60b0;
-color: #fff;
+  background-image: url("https://www.bleepstatic.com/content/hl-images/2022/04/08/GitHub___headpic.jpg");
+background-position: 1px;
+  color: #fff;
 font-family: 'Poppins', sans-serif;
 display: flex;
 flex-direction: column;
