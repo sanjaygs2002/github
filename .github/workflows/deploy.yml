@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main  # Run this workflow on pushes to the main branch
+      - main  # Trigger workflow on push to the main branch
 
 jobs:
   deploy:
@@ -17,4 +17,4 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./  # Directory containing your static files (HTML, CSS, JS)
+        publish_dir: ./  # Specify the root directory for static files
